@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invernadero IoT</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🌿 Monitor de Invernadero IoT</h1>
+    <p>Datos en tiempo real del ambiente</p>
+  </header>
+
+  <main>
+    <section class="datos">
+      <div class="medicion">
+        <h2>Temperatura</h2>
+        <p id="temp">-- °C</p>
+      </div>
+      <div class="medicion">
+        <h2>Humedad</h2>
+        <p id="hum">-- %</p>
+      </div>
+    </section>
+
+    <section class="alerta">
+      <h2>Estado del sistema:</h2>
+      <p id="mensaje">Esperando datos...</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Invernadero IoT</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
