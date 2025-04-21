@@ -1,0 +1,44 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0fdf4;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #4caf50;
+  color: white;
+  padding: 1em;
+}
+
+main {
+  padding: 2em;
+}
+
+.datos {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-top: 1em;
+}
+
+.medicion {
+  background: white;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 150px;
+}
+
+.alerta {
+  margin-top: 2em;
+  font-size: 1.2em;
+}
+
+footer {
+  background: #eee;
+  padding: 1em;
+  margin-top: 2em;
+}
