@@ -1,4 +1,3 @@
-
 // Arreglos para simular historial
 const historialTemp = [];
 const historialHum = [];
