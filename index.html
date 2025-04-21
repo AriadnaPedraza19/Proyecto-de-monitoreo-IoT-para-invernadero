@@ -28,10 +28,68 @@
       <h2>Estado del sistema:</h2>
       <p id="mensaje">Esperando datos...</p>
     </section>
+
+    <section class="info">
+      <h2>Objetivo de la práctica</h2>
+      <p>Integrar una aplicación de un sistema de IoT que monitorea un invernadero de pequeña a mediana escala, recibiendo datos sobre temperatura y humedad para optimizar el uso del agua mediante alertas automáticas.</p>
+
+      <h2>Problemática</h2>
+      <p>Evitar el malgasto de agua y el riego excesivo de plantas mediante sensores de humedad que detecten niveles bajos y emitan alertas.</p>
+
+      <h2>Cuadro comparativo de protocolos IoT</h2>
+      <table border="1" cellpadding="8" cellspacing="0" style="margin: auto;">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Tecnología de transporte</th>
+            <th>Ventajas</th>
+            <th>Desventajas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>LoRaWAN</td>
+            <td>LoRa y FSK</td>
+            <td>Alta cobertura y bajo consumo de energía</td>
+            <td>Limitación de velocidad de datos</td>
+          </tr>
+          <tr>
+            <td>CoAP</td>
+            <td>TCP</td>
+            <td>Bajo consumo de recursos y soporta métodos asíncronos y sincrónos</td>
+            <td>No adecuada para redes grandes, sin garantía de entrega</td>
+          </tr>
+          <tr>
+            <td>MIoTY</td>
+            <td>TSMA</td>
+            <td>Alta eficiencia energética en entornos industriales</td>
+            <td>Costos de implementación elevados, menor soporte</td>
+          </tr>
+          <tr>
+            <td>NB-IoT</td>
+            <td>LTE</td>
+            <td>Alta cobertura en interiores, buena densidad</td>
+            <td>Mayor latencia, enfocado a dispositivos inmóviles</td>
+          </tr>
+          <tr>
+            <td>MQTT</td>
+            <td>TCP y UDP</td>
+            <td>Mensajes ligeros en redes de bajo ancho de banda</td>
+            <td>Poca seguridad integrada, exigente para dispositivos muy limitados</td>
+          </tr>
+          <tr>
+            <td>WebSocket</td>
+            <td>HTTP</td>
+            <td>Comunicación en tiempo real, ideal para apps web/móviles</td>
+            <td>Requiere conexión abierta, no ideal para redes de baja latencia</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Invernadero IoT</p>
+    <p>&copy; 2025 Invernadero IoT | Ariadna Berenice Pedraza Rodríguez | Matrícula: 230822-4 | Fecha: 21/04/2025</p>
   </footer>
 
   <script src="main.js"></script>
