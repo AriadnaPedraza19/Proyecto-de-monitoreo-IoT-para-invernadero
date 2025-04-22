@@ -58,7 +58,6 @@ function actualizarInterfaz() {
     mensaje.style.color = "green";
   }
 
-  // Actualizar gráfica
   const timestamp = new Date().toLocaleTimeString();
   if (etiquetas.length >= 10) {
     etiquetas.shift();
